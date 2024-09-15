@@ -122,7 +122,7 @@ function FrontPage() {
                     <div className="absolute inset-0 bg-black opacity-30" />
                 </div>
 
-                <div className="absolute bottom-16 left-48 lg:left-96 transform -rotate-3 -translate-x-1/2 h-80 lg:h-80 w-full bg-orange-500 z-5 slanted-bg">
+                <div className="absolute bottom-16 left-48 lg:left-96 transform -rotate-3 -translate-x-1/2 h-80 lg:h-80 w-full bg-orange-500 z-5 slanted-bg hidden md:block">
                 </div>
 
                 <div className="absolute bottom-48 left-14 lg:left-20 z-10">
