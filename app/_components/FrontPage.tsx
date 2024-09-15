@@ -101,7 +101,7 @@ function FrontPage() {
             {/* Right Section */}
             <div className="md:w-1/2 bg-white flex items-start justify-center h-screen relative order-1 md:order-2">
                 {/* Logo */}
-                <div className="absolute top-16 left-1 z-10 lg:left-36">
+                <div className="absolute -left-9 -top-2 md:top-16 md:left-1 z-10 lg:left-36">
                     <Image
                         src='/images/PHOTO-2024-09-15-17-02-27-removebg-preview.png'
                         width={220}
@@ -125,13 +125,13 @@ function FrontPage() {
                 <div className="absolute bottom-16 left-48 lg:left-96 transform -rotate-3 -translate-x-1/2 h-80 lg:h-80 w-full bg-orange-500 z-5 slanted-bg hidden md:block">
                 </div>
 
-                <div className="absolute bottom-48 left-14 lg:left-20 z-10">
-                    <p className="bg-blue-950 text-white font-bold tracking-widest inline-block -p-1 px-6">
+                <div className="absolute bottom-16 md:bottom-48 left-14 lg:left-20 z-10">
+                    <p className="bg-blue-950 text-orange-400 md:text-white font-bold tracking-widest inline-block p-1 md:-p-1 px-6">
                         2&nbsp;0&nbsp;2&nbsp;4
                     </p>
                     {/* COMPANY and PROFILE texts */}
-                    <p className="text-white text-4xl mt-2">COMPANY</p>
-                    <p className="text-white font-bold text-4xl">PROFILE</p>
+                    <p className="md:text-white text-4xl mt-2">COMPANY</p>
+                    <p className="md:text-white font-bold text-4xl">PROFILE</p>
                 </div>
             </div>
         </div>
