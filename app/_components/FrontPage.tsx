@@ -41,7 +41,7 @@ function FrontPage() {
             {/* Right Section */}
             <div className="md:w-1/2 bg-white flex items-start justify-center h-screen relative order-1 md:order-2">
                 {/* Logo */}
-                <div className="absolute -left-9 -top-2 md:top-16 md:left-1 lg:left-36 2x1:left-60 z-10">
+                <div className="absolute -left-9 -top-2 md:top-8  z-10">
                     <Image
                         src='/images/PHOTO-2024-09-15-17-02-27-removebg-preview.png'
                         width={220}
@@ -51,7 +51,7 @@ function FrontPage() {
                 </div>
                 
                 {/* Logistics Image with Black Overlay */}
-                <div className="h-[61%] w-full relative -top-2 overflow-hidden">
+                <div className="h-[61%] w-full relative  overflow-hidden">
                     <Image
                         src='/images/logistics.jpg'
                         layout="fill"
@@ -63,15 +63,15 @@ function FrontPage() {
                 </div>
 
                 {/* Slanted Background */}
-                <div className="absolute bottom-16 left-48 md:left-28 lg:bottom-24 lg:h-60 lg:left-28 xl:left-52 transform -rotate-3 -translate-x-1/2 h-80 w-full bg-orange-500 z-5 hidden md:block" />
+                <div className="absolute bottom-16 left-48 md:bottom-24 md:left-28 md:h-60 lg:bottom-24 lg:h-70 lg:left-28 xl:left-52 3xl:left-72 transform -rotate-3 -translate-x-1/2 h-80 w-full bg-orange-500 z-5 hidden md:block" />
                 
                 {/* Text Section */}
-                <div className="absolute bottom-16 md:bottom-48 left-14 lg:left-12 2x1:left-72 z-10 xl:bottom-40">
-                    <p className="bg-blue-950 text-orange-400 md:text-white  font-bold tracking-widest inline-block p-1 px-6">
+                <div className="absolute bottom-16 md:bottom-36 left-14 lg:left-12 lg:bottom-44 2x1:left-72 z-10 xl:bottom-40">
+                    <p className="bg-blue-950 text-orange-400 md:text-white  font-bold tracking-widest inline-block -p-1 px-6">
                         2&nbsp;0&nbsp;2&nbsp;4
                     </p>
-                    <p className="md:text-white text-4xl mt-2 md:text-2xl">COMPANY</p>
-                    <p className="md:text-white font-bold text-4xl md:text-2xl">PROFILE</p>
+                    <p className="md:text-white text-2xl lg:text-4xl mt-2 md:text-2xl ">COMPANY</p>
+                    <p className="md:text-white text-2xl font-bold lg:text-4xl md:text-2xl">PROFILE</p>
                 </div>
             </div>
         </div>
