@@ -168,9 +168,9 @@ function Services() {
             
             </div>
             <div >
-                <p className="text-xs mt-10">
-                Inventory management involves the efficient control and oversight of a companys stock levels to ensure that the right products are available at the right time. Effective inventory management helps businesses minimize holding costs, prevent stockouts, and streamline the supply chain. By utilizing advanced systems and strategies, companies can optimize their inventory levels, improve cash flow, and enhance customer satisfaction.
-                </p>
+            <p className="text-xs mt-10">
+             Inventory management involves the efficient control and oversight of a company&apos;s stock levels to ensure that the right products are available at the right time. Effective inventory management helps businesses minimize holding costs, prevent stockouts, and streamline the supply chain. By utilizing advanced systems and strategies, companies can optimize their inventory levels, improve cash flow, and enhance customer satisfaction.
+            </p>
 
             
             </div>
