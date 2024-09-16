@@ -123,7 +123,7 @@ function FrontPage() {
                  <div className="
                    absolute 
                     bottom-16 left-48 
-                    md:bottom-24 md:left-28 md:h-60 
+                    md:bottom-32 md:left-28 md:h-60 
                     lg:bottom-28 lg:h-72 lg:left-40 
                     xl:left-52 xl:h-80 xl:bottom-16 
                     2xl:left-64 2xl:h-96 2xl:bottom-12 
