@@ -22,7 +22,7 @@ function Blog() {
                 <h3 className="text-2xl font-bold text-white mb-36 "></h3>
                 
                 </div>
-                <div className=''>
+                <div>
                 <h4 className=" font-bold ">
                 The Future of Logistics: How AI and Automation are Revolutionizing Supply Chains
                 </h4>
@@ -50,7 +50,7 @@ function Blog() {
                 <h3 className="text-2xl font-bold text-white mb-36 "></h3>
                 
                 </div>
-                <div className=''>
+                <div >
                 <h4 className=" font-bold ">
                 Sustainable Logistics: Green Practices for a More Eco-Friendly Supply Chain
                 </h4>
@@ -77,11 +77,11 @@ function Blog() {
                 <h3 className="text-2xl font-bold text-white mb-36 "></h3>
                 
                 </div>
-                <div className=''>
+                <div >
                 <h4 className=" font-bold ">
                 The Importance of Last-Mile Delivery in Customer Satisfaction and E-Commerce                </h4>
                 <p className='text-xs mt-1'>
-                Highlight the challenges and innovations in last-mile delivery, including same-day shipping, drones, and customer experience management, and explain why it's critical in today’s e-commerce-driven world.                </p>
+                Highlight the challenges and innovations in last-mile delivery, including same-day shipping, drones, and customer experience management, and explain why it is critical in todays e-commerce-driven world.                </p>
 
                 </div>
             </a>
