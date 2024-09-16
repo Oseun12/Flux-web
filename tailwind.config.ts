@@ -58,6 +58,7 @@ const config: Config = {
         xl: '1024px',
 		'2xl': '1280px',
 		'3xl': '1400px',
+    '4xl': '1600px',
       },
       borderRadius: {
         lg: 'var(--radius)',

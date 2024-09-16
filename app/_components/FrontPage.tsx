@@ -120,7 +120,17 @@ function FrontPage() {
                 </div>
 
                 {/* Slanted Background */}
-                <div className="absolute bottom-16 left-48 md:bottom-24 md:left-28 md:h-60 lg:bottom-28 lg:h-72 lg:left-40 xl:left-52 xl:h-80 xl:bottom-16 3xl:left-72 transform -rotate-3 -translate-x-1/2 h-80 w-full bg-orange-500 z-5 hidden md:block" />
+                 <div className="
+                   absolute 
+                    bottom-16 left-48 
+                    md:bottom-24 md:left-28 md:h-60 
+                    lg:bottom-28 lg:h-72 lg:left-40 
+                    xl:left-52 xl:h-80 xl:bottom-16 
+                    2xl:left-64 2xl:h-96 2xl:bottom-12 
+                    3xl:left-72 
+                    transform -rotate-3 -translate-x-1/2 
+                    h-80 w-full bg-orange-500 z-5 
+                    hidden md:block" />
                 
                 {/* Text Section */}
                 <div className="absolute bottom-16 md:bottom-36 left-14 lg:left-12 lg:bottom-44 2x1:left-72 z-10 xl:bottom-40">
@@ -136,3 +146,6 @@ function FrontPage() {
 }
 
 export default FrontPage;
+
+
+//   <div className="absolute bottom-16 left-48 md:bottom-24 md:left-28 md:h-60 lg:bottom-28 lg:h-72 lg:left-40 xl:left-52 xl:h-80 xl:bottom-16 3xl:left-72 transform -rotate-3 -translate-x-1/2 h-80 w-full bg-orange-500 z-5 hidden md:block" />
