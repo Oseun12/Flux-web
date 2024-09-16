@@ -144,7 +144,7 @@ function Services() {
             </div>
             <div className=''>
             <p className="text-xs mt-10">
-                Third-Party Logistics (3PL) offers comprehensive supply chain solutions by managing warehousing, distribution, and transportation functions on behalf of businesses. By outsourcing these logistics operations, companies can focus on their core competencies while benefiting from 3PL's expertise, technology, and scalable resources. This approach enhances efficiency, reduces costs, and ensures seamless integration across the supply chain.
+                Third-Party Logistics (3PL) offers comprehensive supply chain solutions by managing warehousing, distribution, and transportation functions on behalf of businesses. By outsourcing these logistics operations, companies can focus on their core competencies while benefiting from 3PLs expertise, technology, and scalable resources. This approach enhances efficiency, reduces costs, and ensures seamless integration across the supply chain.
             </p>
 
             
@@ -169,7 +169,7 @@ function Services() {
                 <div>
                 {/* eslint-disable react/no-unescaped-entities */}
                 <p className="text-xs mt-10">
-                    Inventory management involves the efficient control and oversight of a company's stock levels to ensure that the right products are available at the right time. Effective inventory management helps businesses minimize holding costs, prevent stockouts, and streamline the supply chain. By utilizing advanced systems and strategies, companies can optimize their inventory levels, improve cash flow, and enhance customer satisfaction.
+                    Inventory management involves the efficient control and oversight of a companys stock levels to ensure that the right products are available at the right time. Effective inventory management helps businesses minimize holding costs, prevent stockouts, and streamline the supply chain. By utilizing advanced systems and strategies, companies can optimize their inventory levels, improve cash flow, and enhance customer satisfaction.
                 </p>
                 {/* eslint-enable react/no-unescaped-entities */}
             </div>
