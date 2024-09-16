@@ -217,7 +217,7 @@ function Services() {
             <h3 className="text-2xl font-bold text-white mb-36">INVENTORY FINANCE</h3>
             
             </div>
-            <div className=''>
+            <div >
             <p className="text-xs mt-10">
                 Inventory finance refers to the financial management and funding strategies used to support the procurement, storage, and management of inventory. By leveraging various financing options, such as inventory loans or lines of credit, businesses can maintain optimal stock levels, improve cash flow, and ensure smooth operations. Effective inventory finance helps companies manage their working capital more efficiently, reduce financial strain, and support growth by aligning inventory needs with available resources.
             </p>
