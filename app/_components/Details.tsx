@@ -3,7 +3,7 @@ import React from 'react'
 
 function Details() {
   return (
-    <section>
+    <section className='bg-orange-50'>
   <div className="mx-auto max-w-screen-3xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
     <div className="max-w-3xl">
       <h2 className="text-3xl font-bold sm:text-4xl text-center ">
@@ -15,8 +15,8 @@ function Details() {
       <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
         <Image
           alt="logistics"
-          src="/images/logis.avif"
-          width={100}
+          src="https://res.cloudinary.com/dpkl4o58w/image/upload/v1726500708/logis_bitjqm.avif"
+          width={200}
           height={100}
           className="absolute inset-0 h-full w-full object-cover rounded-xl"
         />

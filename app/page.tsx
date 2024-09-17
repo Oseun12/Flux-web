@@ -1,9 +1,8 @@
 import Blog from "./_components/Blog";
-import Clientele from "./_components/Clientele";
 import Details from "./_components/Details";
-import Footer from "./_components/Footer";
 import FrontPage from "./_components/FrontPage";
 import Services from "./_components/Services";
+import Testimonial from "./_components/Testimonial";
 
 export default function Home() {
   return (
@@ -11,9 +10,9 @@ export default function Home() {
       <FrontPage/>
       <Details/>
       <Services/>
-      <Clientele/>
+      <Testimonial/>
       <Blog/>
-      <Footer/>
+      
     </div>
       );
 }

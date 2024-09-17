@@ -1,5 +1,5 @@
-import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 function FrontPage() {
@@ -22,8 +22,8 @@ function FrontPage() {
                         <div className="absolute inset-0 bg-black opacity-30" />
 
                         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                            <a href="#slide4" className="btn btn-circle">❮</a>
-                            <a href="#slide2" className="btn btn-circle">❯</a>
+                            <Link href="#slide4" className="btn btn-circle">❮</Link>
+                            <Link href="#slide2" className="btn btn-circle">❯</Link>
                         </div>
                     </div>
                     <div id="slide2" className="carousel-item relative w-full h-full">
@@ -36,8 +36,8 @@ function FrontPage() {
                             />
                             <div className="absolute inset-0 bg-black opacity-30" />
                         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                            <a href="#slide1" className="btn btn-circle">❮</a>
-                            <a href="#slide3" className="btn btn-circle">❯</a>
+                            <Link href="#slide1" className="btn btn-circle">❮</Link>
+                            <Link href="#slide3" className="btn btn-circle">❯</Link>
                         </div>
                     </div>
                     <div id="slide3" className="carousel-item relative w-full h-full">
@@ -50,8 +50,8 @@ function FrontPage() {
                             />
                             <div className="absolute inset-0 bg-black opacity-30" />
                         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                            <a href="#slide2" className="btn btn-circle">❮</a>
-                            <a href="#slide4" className="btn btn-circle">❯</a>
+                            <Link href="#slide2" className="btn btn-circle">❮</Link>
+                            <Link href="#slide4" className="btn btn-circle">❯</Link>
                         </div>
                     </div>
                     <div id="slide4" className="carousel-item relative w-full h-full">
@@ -64,8 +64,8 @@ function FrontPage() {
                         />
                         <div className="absolute inset-0 bg-black opacity-30" />
                         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                            <a href="#slide3" className="btn btn-circle">❮</a>
-                            <a href="#slide1" className="btn btn-circle">❯</a>
+                            <Link href="#slide3" className="btn btn-circle">❮</Link>
+                            <Link href="#slide1" className="btn btn-circle">❯</Link>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ function FrontPage() {
                     <p className="text-white text-2xl lg:text-6xl font-bold mt-2 text-center tracking-widest">FLUX LOGISTICS.</p>
                     <p className="text-white mt-4  text-2xl text-center">Your trusted and reliable logistics company</p>
                     <p className='text-white mt-6 text-center text-lg'>We delivery worldwide</p>
-                    <Button className='text-center mt-6 p-6  bg-orange-500 text-lg'>Learn more</Button>
+                    <Link href='/about' className='text-center mt-6 p-4 text-white bg-orange-500 text-lg rounded-2xl'>Learn more</Link>
                 </div>
             </div>
         </div>
