@@ -4,12 +4,12 @@ import React from 'react'
 
 function ContactPage() {
   return (
-    <div className="min-h-screen bg-pink-50 flex items-center justify-center px-4">
+    <div className="min-h-screen bg-pink-50 flex items-center justify-center px-4 sm:mt-20 md:mt-0">
       {/* Container */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-w p-8 rounded-lg  ">
         
         {/* Left side: Information Section */}
-        <div className="flex flex-col justify-center space-y-4">
+        <div className="flex flex-col justify-center space-y-4 ">
           <h1 className="text-4xl mb-16 font-bold text-gray-800">
             Do You Have A Question For Us?
           </h1>
@@ -51,8 +51,9 @@ function ContactPage() {
 
               <li>
                 <Link
+                  target="_blank"
                   className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-                  href="+2349061985055"
+                  href="https://wa.me/2349061985055"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

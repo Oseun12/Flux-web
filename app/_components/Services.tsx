@@ -31,7 +31,7 @@ function Services() {
             </div>
         </Link>
 
-        <Link href="#" className="relative block border shadow-lg p-4 rounded-xl transition-all ease-in-out hover:scale-105 hover:border-orange-500 ">
+        <Link target="_blank" href="#" className="relative block border shadow-lg p-4 rounded-xl transition-all ease-in-out hover:scale-105 hover:border-orange-500 ">
             <div className="relative h-[350px] sm:h-[250px]">
             <Image
                 src="https://res.cloudinary.com/dpkl4o58w/image/upload/v1726500720/Warehousing_gzdqde.jpg"
@@ -55,7 +55,7 @@ function Services() {
             </div>
         </Link>
         
-        <Link href="#" className="relative block border shadow-lg p-4 rounded-xl transition-all ease-in-out hover:scale-105 hover:border-orange-500 ">
+        <Link target="_blank" href="#" className="relative block border shadow-lg p-4 rounded-xl transition-all ease-in-out hover:scale-105 hover:border-orange-500 ">
             <div className="relative h-[350px] sm:h-[250px]">
             <Image
                 src="https://res.cloudinary.com/dpkl4o58w/image/upload/v1726500705/coldchain_efp2nt.webp"
@@ -79,7 +79,7 @@ function Services() {
             </div>
         </Link>
         
-        <Link href="#" className="relative block border shadow-lg p-4 rounded-xl transition-all ease-in-out hover:scale-105 hover:border-orange-500 ">
+        <Link target="_blank" href="#" className="relative block border shadow-lg p-4 rounded-xl transition-all ease-in-out hover:scale-105 hover:border-orange-500 ">
             <div className="relative h-[350px] sm:h-[250px]">
             <Image
                 src="https://res.cloudinary.com/dpkl4o58w/image/upload/v1726500704/air2_pbv7iu.webp"
@@ -103,7 +103,7 @@ function Services() {
             </div>
         </Link>
 
-        <Link href="#" className="relative block border shadow-lg p-4 rounded-xl transition-all ease-in-out hover:scale-105 hover:border-orange-500 ">
+        <Link target="_blank" href="#" className="relative block border shadow-lg p-4 rounded-xl transition-all ease-in-out hover:scale-105 hover:border-orange-500 ">
             <div className="relative h-[350px] sm:h-[250px]">
             <Image
                 src="https://res.cloudinary.com/dpkl4o58w/image/upload/v1726500714/marine_rtdvfi.jpg"
@@ -128,7 +128,7 @@ function Services() {
         </Link>
         
 
-        <Link href="#" className="relative block border shadow-lg p-4 rounded-xl transition-all ease-in-out hover:scale-105 hover:border-orange-500 ">
+        <Link target="_blank" href="#" className="relative block border shadow-lg p-4 rounded-xl transition-all ease-in-out hover:scale-105 hover:border-orange-500 ">
             <div className="relative h-[350px] sm:h-[250px]">
             <Image
                 src="https://res.cloudinary.com/dpkl4o58w/image/upload/v1726500704/3PL_l9mc0r.webp"
@@ -153,7 +153,7 @@ function Services() {
         </Link>
         
 
-        <Link href="#" className="relative block border shadow-lg p-4 rounded-xl transition-all ease-in-out hover:scale-105 hover:border-orange-500 ">
+        <Link target="_blank" href="#" className="relative block border shadow-lg p-4 rounded-xl transition-all ease-in-out hover:scale-105 hover:border-orange-500 ">
             <div className="relative h-[350px] sm:h-[250px]">
             <Image
                 src="https://res.cloudinary.com/dpkl4o58w/image/upload/v1726500708/inventory_rfipnn.jpg"
@@ -178,7 +178,7 @@ function Services() {
         </Link>
         
 
-        <Link href="#" className=" relative block border shadow-lg p-4 rounded-xl transition-all ease-in-out hover:scale-105 hover:border-orange-500 ">
+        <Link target="_blank" href="#" className=" relative block border shadow-lg p-4 rounded-xl transition-all ease-in-out hover:scale-105 hover:border-orange-500 ">
             <div className="relative h-[350px] sm:h-[250px]">
             <Image
                 src="https://res.cloudinary.com/dpkl4o58w/image/upload/v1726500705/distribution_iab3or.webp"
@@ -203,7 +203,7 @@ function Services() {
         </Link>
         
 
-        <Link href="#" className="relative block border shadow-lg p-4 rounded-xl transition-all ease-in-out hover:scale-105 hover:border-orange-500 ">
+        <Link target="_blank" href="#" className="relative block border shadow-lg p-4 rounded-xl transition-all ease-in-out hover:scale-105 hover:border-orange-500 ">
             <div className="relative h-[350px] sm:h-[250px]">
             <Image
                 src="/images/finance.jpg"

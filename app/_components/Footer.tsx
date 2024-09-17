@@ -112,8 +112,9 @@ function Footer() {
 
             <li>
               <Link
+                target="_blank"
                 className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-                href="+2349061985055"
+                href="https://wa.me/2349061985055"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -168,7 +169,7 @@ function Footer() {
         <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
           <li>
             <Link
-              href="#"
+              href="https://web.facebook.com/Fluxselfstorage/"
               rel="noreferrer"
               target="_blank"
               className="text-white transition hover:opacity-75"
@@ -187,7 +188,7 @@ function Footer() {
 
           <li>
             <Link
-              href="#"
+              href="https://www.linkedin.com/company/flux-logistix-self-storage/"
               rel="noreferrer"
               target="_blank"
               className="text-white transition hover:opacity-75"
@@ -206,7 +207,7 @@ function Footer() {
 
           <li>
             <Link
-              href="#"
+              href="https://x.com/Flux_storage/"
               rel="noreferrer"
               target="_blank"
               className="text-white transition hover:opacity-75"
@@ -223,7 +224,7 @@ function Footer() {
 
           <li>
             <Link
-              href="#"
+              href="https://www.linkedin.com/company/flux-logistix-self-storage/"
               rel="noreferrer"
               target="_blank"
               className="text-white transition hover:opacity-75"
