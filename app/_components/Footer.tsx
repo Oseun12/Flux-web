@@ -49,18 +49,18 @@ function Footer() {
 
           <ul className="mt-6 space-y-4 text-sm">
           <li>
-              <Link href="#" className="text-white transition hover:opacity-75"> Home </Link>
+              <Link href="/" className="text-white transition hover:opacity-75"> Home </Link>
             </li>
             <li>
-              <Link href="#" className="text-white transition hover:opacity-75"> About </Link>
-            </li>
-
-            <li>
-              <Link href="#" className="text-white transition hover:opacity-75"> Our Services</Link>
+              <Link href="/about" className="text-white transition hover:opacity-75"> About </Link>
             </li>
 
             <li>
-              <Link href="#" className="text-white transition hover:opacity-75"> Our Blog </Link>
+              <Link href="/services" className="text-white transition hover:opacity-75"> Our Services</Link>
+            </li>
+
+            <li>
+              <Link href="/blogs" className="text-white transition hover:opacity-75"> Our Blog </Link>
             </li>
           </ul>
         </div>
