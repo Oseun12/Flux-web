@@ -8,6 +8,7 @@ function Blog() {
       <h2 className='text-center mb-20 font-bold text-4xl'>OUR BLOGS</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
         <Link
+        target="_blank"
           href="https://medium.com/flux-self-storage/6-key-benefits-of-using-a-self-storage-facility-for-your-e-commerce-business-681ff8888481"
           className="relative block border shadow-lg p-4 rounded-xl">
           <div className="relative h-[350px] sm:h-[250px]">
@@ -40,6 +41,7 @@ function Blog() {
         </Link>
 
         <Link
+        target="_blank"
           href="https://medium.com/flux-self-storage/choosing-the-right-storage-units-what-you-need-to-know-cb05827bc834"
           className="relative block border shadow-lg p-4 rounded-xl">
           <div className="relative h-[350px] sm:h-[250px]">

@@ -76,7 +76,7 @@ function FrontPage() {
                     <p className="text-white text-2xl lg:text-6xl font-bold mt-2 text-center tracking-widest">FLUX LOGISTICS.</p>
                     <p className="text-white mt-4  text-2xl text-center">Your trusted and reliable logistics company</p>
                     <p className='text-white mt-6 text-center text-lg'>We delivery worldwide</p>
-                    <Link href='/about' className='text-center mt-6 p-4 text-white bg-orange-500 text-lg rounded-2xl'>Learn more</Link>
+                    <Link target="_blank" href='/about' className='text-center mt-6 p-4 text-white bg-orange-500 text-lg rounded-2xl'>Learn more</Link>
                 </div>
             </div>
         </div>
