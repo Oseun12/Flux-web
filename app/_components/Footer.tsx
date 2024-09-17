@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Footer() {
@@ -33,7 +34,7 @@ function Footer() {
               />
 
               <button
-                className="mt-1 w-full bg-teal-500 px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-teal-600 sm:mt-0 sm:w-auto sm:shrink-0"
+                className="mt-1 w-full bg-blue-900 px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-teal-600 sm:mt-0 sm:w-auto sm:shrink-0"
               >
                 Sign Up
               </button>
@@ -48,18 +49,18 @@ function Footer() {
 
           <ul className="mt-6 space-y-4 text-sm">
           <li>
-              <a href="#" className="text-white transition hover:opacity-75"> Home </a>
+              <Link href="#" className="text-white transition hover:opacity-75"> Home </Link>
             </li>
             <li>
-              <a href="#" className="text-white transition hover:opacity-75"> About </a>
-            </li>
-
-            <li>
-              <a href="#" className="text-white transition hover:opacity-75"> Our Services</a>
+              <Link href="#" className="text-white transition hover:opacity-75"> About </Link>
             </li>
 
             <li>
-              <a href="#" className="text-white transition hover:opacity-75"> Our Blog </a>
+              <Link href="#" className="text-white transition hover:opacity-75"> Our Services</Link>
+            </li>
+
+            <li>
+              <Link href="#" className="text-white transition hover:opacity-75"> Our Blog </Link>
             </li>
           </ul>
         </div>
@@ -71,11 +72,11 @@ function Footer() {
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" className="text-white transition hover:opacity-75"> Terms of Service </a>
+              <Link href="#" className="text-white transition hover:opacity-75"> Terms of Service </Link>
             </li>
 
             <li>
-              <a href="#" className="text-white transition hover:opacity-75"> Privacy Policy </a>
+              <Link href="#" className="text-white transition hover:opacity-75"> Privacy Policy </Link>
             </li>
           </ul>
         </div>
@@ -86,7 +87,7 @@ function Footer() {
 
           <ul className="mt-8 space-y-4 text-sm">
             <li>
-              <a
+              <Link
                 className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
                 href="mailto:info@fluxlogistics.com"
               >
@@ -106,11 +107,11 @@ function Footer() {
                 </svg>
 
                 <span className="flex-1 text-white">info@fluxlogistics.com</span>
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a
+              <Link
                 className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
                 href="+2349061985055"
               >
@@ -130,7 +131,7 @@ function Footer() {
                 </svg>
 
                 <span className="flex-1 text-white">+2349061985055</span>
-              </a>
+              </Link>
             </li>
 
             <li
@@ -166,7 +167,7 @@ function Footer() {
 
         <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
           <li>
-            <a
+            <Link
               href="#"
               rel="noreferrer"
               target="_blank"
@@ -181,11 +182,11 @@ function Footer() {
                   clipRule="evenodd"
                 />
               </svg>
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a
+            <Link
               href="#"
               rel="noreferrer"
               target="_blank"
@@ -200,11 +201,11 @@ function Footer() {
                   clipRule="evenodd"
                 />
               </svg>
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a
+            <Link
               href="#"
               rel="noreferrer"
               target="_blank"
@@ -217,11 +218,11 @@ function Footer() {
                   d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
                 />
               </svg>
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a
+            <Link
               href="#"
               rel="noreferrer"
               target="_blank"
@@ -236,11 +237,11 @@ function Footer() {
                   clipRule="evenodd"
                 />
               </svg>
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a
+            <Link
               href="#"
               rel="noreferrer"
               target="_blank"
@@ -255,7 +256,7 @@ function Footer() {
                   clipRule="evenodd"
                 />
               </svg>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -267,15 +268,15 @@ function Footer() {
 
         <ul className="mt-8 flex flex-wrap justify-start gap-4 text-xs sm:mt-0 lg:justify-end">
           <li>
-            <a href="#" className="text-gray-500 transition hover:opacity-75"> Terms & Conditions </a>
+            <Link href="#" className="text-gray-500 transition hover:opacity-75"> Terms & Conditions </Link>
           </li>
 
           <li>
-            <a href="#" className="text-gray-500 transition hover:opacity-75"> Privacy Policy </a>
+            <Link href="#" className="text-gray-500 transition hover:opacity-75"> Privacy Policy </Link>
           </li>
 
           <li>
-            <a href="#" className="text-gray-500 transition hover:opacity-75"> Cookies </a>
+            <Link href="#" className="text-gray-500 transition hover:opacity-75"> Cookies </Link>
           </li>
         </ul>
       </div>

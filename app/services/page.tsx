@@ -4,7 +4,7 @@ import React from 'react';
 
 function Services() {
   return (
-    <div className='p-6' id='Services'>
+    <div className='p-6 mt-20 bg-orange-50' id='Services'>
         <h2 className='text-center mb-20 font-bold text-4xl'>OUR SERVICES</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-16 p-6">
         <Link href="#" className="relative block border shadow-lg p-4 rounded-xl transition-all ease-in-out hover:scale-105 hover:border-orange-500 ">
